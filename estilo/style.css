@@ -92,6 +92,7 @@ main{
 main h1 {
     color: var(--cor5);
     font-family: var(--fonte-android);
+    padding: 30px;
 }
 
 main h2 {
@@ -99,6 +100,7 @@ main h2 {
     font-size: 1.5em;
     font-family: var(--fonte-android);
     background-image: linear-gradient(to right, var(--cor1), transparent);
+    margin: 20px;
 }
 
 main p {
@@ -157,6 +159,10 @@ ul{
 ul > li{
     color: var(--cor5);
     font-weight: bold;
+}
+
+hr{
+    margin: 10px;
 }
 
 aside > h3{
